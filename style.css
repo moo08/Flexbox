@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #00ccff;
+    font-size: 1.5em;
+}
+
+.one a{
+    text-decoration: none;
+    color: #000;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background: #ffcc00;
+    font-size: 1.5em;
+}
+
+.trois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #32ff98;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 996px)  {
+    .one{
+        height: 200px;
+    }
+    
+
+    .two{
+        height: 1100px;
+    }
+
+    .trois{
+        height: 200px;
+    }
+}
