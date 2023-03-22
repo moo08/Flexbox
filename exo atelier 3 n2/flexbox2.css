@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.papa{
+    width: 100%;
+    height: 650px;
+    background-color:yellow;
+}
+
+.haut2{
+    margin-top: -30px;
+    width: 100%;
+    height: 113px;
+    background-color: rgb(80, 138, 232);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top:45%;
+}
+.gauche{
+    width: 14%;
+    height: 476px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.gauchehaut{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(13, 206, 55);
+}
+.gauchebas{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(147, 80, 80);
+}
+
+.bas{
+    width: 100%;
+    height: 113px;
+    background-color: rgb(44, 228, 130);
+}
+@media only screen and (max-width: 400px)  {
+    .papa{
+        display: flex;
+        flex-direction: column;
+    }
+    .gauche{
+         width: 100%;
+         height: 15%;
+    }
+    .gauchehaut{
+        width: 100%;
+        /* height: 15%; */
+    }
+    .gauchebas{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 500px;
+    } 
+    .bas{
+        position: absolute;
+        top: 550px; 
+    }
+}
+@media only screen and (max-width: 125px) {
+    p{
+        display: none;
+    }
+}
